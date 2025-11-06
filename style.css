@@ -43,6 +43,9 @@ article:nth-child(1) .testimonial-role,
 article:nth-child(1) .testimonial-text {
     color: var(--color-purple-50);
 }
+article:nth-child(1) .testimonial-picture {
+    border: 2px solid var(--color-purple-300); 
+}
 
 article:nth-child(2) {
     background-color: var(--color-grey-500);
@@ -72,6 +75,9 @@ article:nth-child(4) .testimonial-heading {
 }
 article:nth-child(4) .testimonial-text {
     color: var(--color-grey-100);
+}
+article:nth-child(4) .testimonial-picture {
+    border: 2px solid var(--color-purple-500);
 }
 
 .testimonial-name {
