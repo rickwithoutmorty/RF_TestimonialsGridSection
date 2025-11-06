@@ -127,6 +127,7 @@ figcaption {
 /* RESPONSIVE DESIGN TABLET */
 @media screen and (min-width: 41.25rem) {
     main {
+        margin-top: 10rem;
         grid-template-columns: repeat(2, minmax(15rem, 34.85rem));
     }
     
@@ -139,10 +140,26 @@ figcaption {
     article:nth-child(1) figure {
         max-height: 2rem;
     }
-    
+
     #img-quotes {
         display: block;
         padding-top: 1rem;
         padding-left: 14rem;
+    }
+}
+
+/* RESPONSIVE DESIGN DESKTOP */
+@media screen and (min-width: 70rem) {
+    main {
+        grid-template-columns: repeat(4, minmax(15rem, 25rem));
+    }
+    
+    article:nth-child(3) {
+        grid-row: 2;
+    }
+
+    article:nth-child(5) {
+        grid-column: 4;
+        grid-row: 1 / span 2;
     }
 }
