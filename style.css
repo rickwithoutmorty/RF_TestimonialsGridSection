@@ -123,3 +123,26 @@ article figure {
 figcaption {
     padding-left: 1rem;
 }
+
+/* RESPONSIVE DESIGN TABLET */
+@media screen and (min-width: 41.25rem) {
+    main {
+        grid-template-columns: repeat(2, minmax(15rem, 34.85rem));
+    }
+    
+    article:nth-child(1),
+    article:nth-child(4),
+    article:nth-child(5) {
+        grid-column: span 2;
+    }
+
+    article:nth-child(1) figure {
+        max-height: 2rem;
+    }
+    
+    #img-quotes {
+        display: block;
+        padding-top: 1rem;
+        padding-left: 14rem;
+    }
+}
