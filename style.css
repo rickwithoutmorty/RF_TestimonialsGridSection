@@ -90,3 +90,11 @@ article:nth-child(4) .testimonial-text {
 .testimonial-text {
     font-size: 0.8rem;
 }
+
+article {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 10px 10px 20px var(--color-grey-400);
+    border-radius: 10px;
+    padding: 2rem;
+}
