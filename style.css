@@ -26,6 +26,8 @@
 main {
     display: grid;
     gap: 2rem;
+    grid-template-columns: minmax(15rem, 40.65rem);
+    justify-content: center;
     margin: 2rem;
     margin-top: 5rem;
     font-family: var(--font-family-main);
@@ -85,6 +87,7 @@ article:nth-child(4) .testimonial-text {
     font-size: 1.25rem;
     font-weight: 600;
     line-height: 120%;
+    margin-bottom: 1rem;
 }
 
 .testimonial-text {
@@ -97,4 +100,20 @@ article {
     box-shadow: 10px 10px 20px var(--color-grey-400);
     border-radius: 10px;
     padding: 2rem;
+}
+
+/* TESTIMONIAL NAME SECTION */
+article figure {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.testimonial-picture {
+    border-radius: 50%;
+    width: 2rem;
+}
+
+figcaption {
+    padding-left: 1rem;
 }
